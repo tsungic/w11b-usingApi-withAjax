@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#page-container{
+    display: grid;
+    align-items: center;
+    min-height: 80vh;
+    width: 100%;
+}
+
+#bitcoin-button:hover {
+    cursor:pointer;
+}
+
+#bitcoin-price {
+    color: rgb(255, 0, 0);
+    font-size: 50px;
+}
